@@ -1,0 +1,43 @@
+python
+HTTP
+postman:
+1.搭建
+2.HTTP的基本(webxml,人人网，电子优惠券平台,)
+  断言(协议状态码  业务状态码  数据的验证)
+  token
+  公共数据的分离
+  Collections-->集合-->Test Suite
+  接口测试的执行顺序
+
+UI：
+1.业务
+2.浏览器的兼容性
+3....
+
+接口来测试产品的业务
+cient---->server---->clieent
+
+速度很快的
+1.一个字段的类型不同
+
+接口：
+1.字段边界值的验证
+2.字段为空的验证
+3.字段类型的验证
+4.基于业务的形式--->业务流程场景化是OK的  前后端的请求是OK的  
+
+node.js  newman安装的命令：
+npm install -g newman --registry=https://registry.npm.taobao.org
+
+
+
+
+
+
+
+
+
+
+
+
+  

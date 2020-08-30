@@ -1,0 +1,25 @@
+基本认证:basic
+cookie的处理
+code的方式
+
+newman:
+npm install -g newman --registry=https://registry.npm.taobao.org
+
+分享后的地址:
+newman -u uri
+
+
+执行导出的文件
+newman run "export.json"
+
+生成基于html的文件
+newman run 测试脚本 -r html
+
+
+html的报告:
+npm install -g newman-reporter-html
+
+newman run 脚本 -reporters html
+
+newman run 脚本 -r html
+
